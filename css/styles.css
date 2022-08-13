@@ -22,15 +22,29 @@ nav {
 }
 
 
-/* Carrusel */
+/* Intro */
 
 .nombreEmpresa {
     color: rgb(255, 128, 0);
 }
 
+
+/* Clientes */
+
 #clientes {
     display: flex;
     flex-direction: column;
+}
+
+
+/* Footer */
+
+#secciones {
+    font-size: small;
+}
+
+#secciones li a:hover {
+    font-size: medium;
 }
 
 .bi-facebook:hover {
