@@ -24,36 +24,28 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg" id="menu">
+    <!-- Inicio Nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-lg-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img border-radius:100% class="logo" src="../img/logo.jpg" alt="logo"></a>
+                <a class="navbar-brand ps-3" href="../index.html"><img style=border-radius:100% class="logo" src="../img/logo.jpg" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="company.html">EMPRESA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="actives.html">ACTIVOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">NOVEDADES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">CONTACTO</a>
-                        </li>
-                    </ul>
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+                    <div class="navbar-nav">
+                        <a class="nav-link px-5 fst-italic" href="../index.html">INICIO</a>
+                        <a class="nav-link px-5 fst-italic" href="company.html">EMPRESA</a>
+                        <a class="nav-link px-5 fst-italic" href="actives.html">ACTIVOS</a>
+                        <a class="nav-link active px-5 fst-italic" aria-current="page" href="news.html">NOVEDADES</a>
+                        <a class="nav-link px-5 fst-italic" href="contact.html">CONTACTO</a>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <section id="news">
+    <!-- Fin Nav -->
+    <section id="news" class="pt-5">
         <div class="row pt-5">
             <div class="col-sm-6">
                 <div class="card">
@@ -61,7 +53,7 @@
                         <h5 class="card-title">Culminó la feria Fruit Logística que desarrolló en Berlín, Alemania</h5>
                         <p class="card-text">Con la participacion de MAF SA y otras empresas de la Provincia junto con ProMendoza y el Consejo Federal de Inversiones viajaron a Alemania para asistir a una de las ferias de frutas y hortalizas frescas más grandes del mundo,
                             que este año tuvo 2 mil expositores de 87 países.</p>
-                        <a href="https://mendoza24.com.ar/noticias_locales/1718-mendoza-busca-diversificar-mercados-de-frutas-y-hortalizas-frescas-en-berlin" class="btn btn-primary"> Saber más </a>
+                        <a href="https://mendoza24.com.ar/noticias_locales/1718-mendoza-busca-diversificar-mercados-de-frutas-y-hortalizas-frescas-en-berlin" target="_blank" rel="noopener noreferrer" class="btn btn-primary"> Saber más </a>
                     </div>
                 </div>
             </div>
@@ -70,44 +62,45 @@
                     <div class="animate__animated animate__backInRight p-4 m-2" class="card-body">
                         <h5 class="card-title">Economías regionales: Zanahorias de punta en Mendoza</h5>
                         <p class="card-text">Con tecnología que permite lograr calidad, Miguel Angel Fernández produce, con riego, 100 toneladas por hectárea, “a la sombra” de la vitivinicultura.</p>
-                        <a href="https://www.clarin.com/rural/zanahorias-punta-mendoza_0_H11ZD4qsG.html" class="btn btn-primary">Saber más</a>
+                        <a href="https://www.clarin.com/rural/zanahorias-punta-mendoza_0_H11ZD4qsG.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Inicio Footer -->
     <footer>
-        <div class="conteiner pt-5">
-            <div class="row d-flex align-content-lg-between">
-                <a href="#" class="col-6 col-lg-3 col-sm-3 text-reset text-uppercase d-flex aling-items-center">
-                    <img src="../img/logo.jpg" alt="logo MAF" class="logo">
-                </a>
-                <ul class=" col-6 col-lg-3  col-sm-3 list-unstyled">
-                    <li class="font-weight-bolt text-uppercase">SECCIONES:</li>
-                    <li><a class="nav-link" href="../index.html">INICIO</a></li>
-                    <li><a class="nav-link" href="company.html">EMPRESA</a></li>
-                    <li><a class="nav-link" href="actives.html">ACTIVOS</a></li>
-                    <li><a class="nav-link" href="news.html">NOVEDADES</a></li>
-                    <li><a class="nav-link" href="contact.html">CONTACTO</a></li>
+        <div class="conteiner pt-5 pb-5 border-top border-5 d-flex justify-content-center">
+            <div class="row" id="footerContenedor">
+                <ul class=" col-12 col-lg-4  col-sm-4 list-unstyled animate__animated animate__backInLeft" id="secciones">
+                    <li class="font-weight-bolt text-uppercase fw-bold">SECCIONES:</li>
+                    <li><a class="nav-link" href="pages/index.html">INICIO</a></li>
+                    <li><a class="nav-link" href="pages/company.html">EMPRESA</a></li>
+                    <li><a class="nav-link" href="pages/actives.html">ACTIVOS</a></li>
+                    <li><a class="nav-link" href="pages/news.html">NOVEDADES</a></li>
+                    <li><a class="nav-link" href="pages/contact.html">CONTACTO</a></li>
                 </ul>
-                <ul class=" col-6 col-lg-3  col-sm-3 col-xs list-unstyled animate__animated animate__backInLeft">
-                    <li class="font-weight-bolt"><i class="bi bi-telephone "></i> +54-0261-3059894</li>
-                    <li class="font-weight-bolt"><i class="bi bi-envelope "></i> mafseragro@gmail.com </li>
-                    <li class="font-weight-bolt"><i class="bi bi-geo-alt-fill "> Ruta 20 km. 15 - Maipú - Mendoza</i></li>
-                    <ul>
-                        <a href="https://www.facebook.com/maf.fernandez.18 " target="_blank "> <i class="bi bi-facebook fs-2 "></i></a>
-                        <a href="https://wa.me/542613059894 " target="_blank "><i class="bi bi-whatsapp fs-2 "></i></a>
-                        <a href="https://www.instagram.com/productos_maf/ " target="_blank "><i class="bi bi-instagram fs-2 "></i></a>
-                    </ul>
-                </ul>
-
-                <div class="col-6 col-lg-3 col-sm-3 animate__animated animate__backInRight" class="location ">
+                <div class="col-12 col-lg-4 col-sm-4 ">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214303.26690108955!2d-68.87812164787013!3d-32.93810870301469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e135b485ee42f%3A0x1e7cd57d7c5878ae!2sMAF!5e0!3m2!1ses-419!2sar!4v1654548538755!5m2!1ses-419!2sar "
-                        width="200 " height="150 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+                        width="80%" height="70%" style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+                    <p style="font-size:xx-small;"><i class="bi bi-geo-alt-fill "> Ruta 20 km. 15 - Maipú - Mendoza</i></p>
                 </div>
+                <ul class=" col-12 col-lg-4  col-sm-4  list-unstyled animate__animated animate__backInRight d-flex flex-column justify-content-center" style="font-size: small;">
+                    <li>
+                        <a href="https://www.facebook.com/maf.fernandez.18 " target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook fs-2 "></i></a>
+                        <a href="https://wa.me/542613059894 " target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp fs-2 "></i></a>
+                        <a href="https://www.instagram.com/productos_maf/ " target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram fs-2 "></i></a>
+                    </li>
+                    <li><i class="bi bi-telephone"></i> +54-0261-3059894</li>
+                    <li><i class="bi bi-envelope "></i> mafseragro@gmail.com </li>
+                </ul>
             </div>
         </div>
+        <div class="text-center bg-light p-3 m-2 ">
+            <small>&copy; 2022 <b>Sebastian Vargas Zingaretti</b> - Todos los Derechos Reservados.</small>
+        </div>
     </footer>
+    <!-- Fin Footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
