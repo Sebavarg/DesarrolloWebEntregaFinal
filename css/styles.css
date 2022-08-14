@@ -45,6 +45,7 @@ nav {
 
 #secciones li a:hover {
     font-size: medium;
+    font-weight: bold;
 }
 
 .bi-facebook:hover {
