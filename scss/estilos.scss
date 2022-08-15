@@ -1,0 +1,52 @@
+@import "variables";
+@import "footer";
+@import "mediaQ";
+body {
+    background-color: $verdePastel;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Logo */
+
+.logo {
+    height: 4rem;
+    border-radius: 100%
+}
+
+
+/* Nav */
+
+nav {
+    background-color: $verdePastel;
+}
+
+
+/* Intro */
+
+.nombreEmpresa {
+    color: $naranjaZanahoria;
+}
+
+
+/* Clientes */
+
+#clientes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Actives */
+
+.videoActives {
+    overflow: hidden;
+}
+
+.videoActives video {
+    width: 400px;
+    height: 300px;
+}

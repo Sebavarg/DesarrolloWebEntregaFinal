@@ -1,0 +1,34 @@
+/* Media queries pantalla Small SM */
+
+@media (max-width:768px) {
+    #intro,
+    #tituloClientes {
+        width: 90% !important;
+    }
+    .logo {
+        height: 3 rem;
+    }
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+    #footerContenedor {
+        background-color: rgb(122, 226, 106);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+        border-radius: 15%;
+    }
+    .videoActives {
+        width: 90%;
+    }
+    .videoActives video {
+        width: 230px;
+        height: 180px;
+    }
+    #secciones {
+        display: none;
+    }
+}
