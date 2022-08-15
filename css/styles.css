@@ -50,14 +50,17 @@ nav {
 
 .bi-facebook:hover {
     color: #3b5998;
+    margin: 1px;
 }
 
 .bi-whatsapp:hover {
     color: #25D366;
+    margin: 1px;
 }
 
 .bi-instagram:hover {
     color: #8a3ab9;
+    margin: 1px;
 }
 
 .videoActives {
@@ -104,5 +107,8 @@ nav {
     .videoActives video {
         width: 230px;
         height: 180px;
+    }
+    #secciones {
+        display: none;
     }
 }
