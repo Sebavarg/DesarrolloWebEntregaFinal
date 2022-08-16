@@ -1,0 +1,93 @@
+/* Footer */
+footer #secciones {
+  font-size: small;
+}
+footer #secciones li a:hover {
+  font-size: medium;
+  font-weight: bold;
+}
+footer .redes .bi-facebook:hover {
+  color: #3b5998;
+  margin: 1px;
+}
+footer .redes .bi-whatsapp:hover {
+  color: #25D366;
+  margin: 1px;
+}
+footer .redes .bi-instagram:hover {
+  color: #8a3ab9;
+  margin: 1px;
+}
+
+/* Media queries pantalla Small SM */
+@media (max-width: 768px) {
+  #intro,
+#tituloClientes {
+    width: 90% !important;
+  }
+  .logo {
+    height: 3 rem;
+  }
+  nav {
+    padding: 0;
+    margin: 0;
+  }
+  #footerContenedor {
+    background-color: rgb(122, 226, 106);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    border-radius: 15%;
+  }
+  .videoActives {
+    width: 90%;
+  }
+  .videoActives video {
+    width: 230px;
+    height: 180px;
+  }
+  #secciones {
+    display: none;
+  }
+}
+body {
+  background-color: rgb(189, 236, 182);
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Logo */
+.logo {
+  height: 4rem;
+  border-radius: 100%;
+}
+
+/* Nav */
+nav {
+  background-color: rgb(189, 236, 182);
+}
+
+/* Intro */
+.nombreEmpresa {
+  color: rgb(255, 128, 0);
+}
+
+/* Clientes */
+#clientes {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Actives */
+.videoActives {
+  overflow: hidden;
+}
+
+.videoActives video {
+  width: 400px;
+  height: 300px;
+}/*# sourceMappingURL=estilos.css.map */
